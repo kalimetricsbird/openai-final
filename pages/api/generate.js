@@ -1,7 +1,6 @@
 import { Configuration, OpenAIApi } from "openai";
-console.log(process.env.OPENAI_API_KEY)
 const configuration = new Configuration({
-  apiKey: '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',
+  apiKey: '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',
 });
 const openai = new OpenAIApi(configuration);
 //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
